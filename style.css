@@ -1,0 +1,63 @@
+
+   
+   ul {
+    background-color: beige;
+    list-style-type: none; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+
+     
+ li {display: inline;}   
+
+ li a {display:inline;
+      text-decoration:none;
+       }
+
+ li a:hover {
+    color: palevioletred;
+    display: inline; 
+     }  
+    
+a:visited {
+   color: rgb(56, 14, 14);
+}
+
+a:link {
+   color: rgb(109, 27, 27);
+}
+
+a:active {
+   color: brown;
+}
+  
+  h1 {text-align: center; color: pink;}
+  h2 {text-align: center; color: palevioletred;}
+
+
+  h3 {color: palevioletred;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h4 { text-align: center;
+ color: rgb(212, 100, 138);
+ }
+
+  p {text-align: center;
+  color:black;
+  }
+
+  .img-larissa {
+
+   text-align: center;
+  }
+ 
+  .form-container {
+   display: flex;
+   justify-content: center;
+}
+
+.form-container form {
+   width: 25%;
+}
